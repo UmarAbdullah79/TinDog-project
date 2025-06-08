@@ -1,0 +1,72 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Title Section */
+#title {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Features Section */
+#features {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+/* Testimonial Section */
+#testimonial {
+    background-color: #e9ecef;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 50px 0;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    #title h1 {
+        font-size: 1.5rem;
+    }
+}

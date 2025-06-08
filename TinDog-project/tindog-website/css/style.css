@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.btn-outline-dark {
+    border-color: #343a40;
+    color: #343a40;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+.text-body-emphasis {
+    color: #6c757d;
+}
+
+.text-body-secondary {
+    color: #adb5bd;
+}
+
+.my-p {
+    font-style: italic;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.my-img {
+    max-width: 100px;
+    margin: 0 10px;
+}
